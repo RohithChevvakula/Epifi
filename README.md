@@ -6,5 +6,5 @@ Pre-requisites for the system where this code will be run:
   3. android phone should be connected via usb
   4. appium, android sdk should be installed
 
-Q : How to run this project?
-A : Download this git repository and navigate into the downloaded folder namely Epifi and run command: ' mvn clean install ' 
+How to run this project?
+Download this git repository and navigate into the downloaded folder namely Epifi and run command: ' mvn clean install ' 
