@@ -25,7 +25,7 @@ public void met() throws InterruptedException {
 	AndroidDriver driver = new AndroidDriver(appiumService,desiredCapabilities);
 	driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 	driver.findElementById("com.android.example.github:id/input").click();
-	driver.findElementById("com.android.example.github:id/input").sendKeys("appium");
+	driver.findElementById("com.android.example.github:id/input").sendKeys("RohithChevvakula/Epifi");
 	driver.pressKeyCode(AndroidKeyCode.KEYCODE_ENTER);
 	driver.findElementByXPath("//*[@resource-id='com.android.example.github:id/repo_list']/*[@class='android.widget.FrameLayout']").click();
 	driver.findElementByXPath("//*[@resource-id='com.android.example.github:id/contributor_list']/*[1]").click();
