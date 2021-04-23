@@ -18,6 +18,7 @@ public void met() throws InterruptedException {
 	DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
 	desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME,"UIAutomator2");
 	desiredCapabilities.setCapability("platformName", "Android");
+	desiredCapabilities.setCapability("app","./app/automation-github.apk");
 	desiredCapabilities.setCapability("appPackage", "com.android.example.github");
 	desiredCapabilities.setCapability("appActivity", "com.android.example.github.MainActivity");
 	desiredCapabilities.setCapability("noReset",true);
