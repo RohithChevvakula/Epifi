@@ -8,4 +8,4 @@ Pre-requisites for the system where this code will be run:
 
 How to run this project?
 
-Download this git repository and navigate into the downloaded folder namely Epifi and run command: ' mvn clean install ' 
+Download this git repository and navigate into the downloaded folder namely Epifi or Epifi-main and run command: ' mvn clean install ' 
